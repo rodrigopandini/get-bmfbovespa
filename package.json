@@ -1,0 +1,22 @@
+{
+  "name": "get-bmfbovespa",
+  "version": "0.1.0",
+  "description": "Faz o download dos dados histórico da BM&F/Bovespa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BM&F",
+    "Bovespa",
+    "historico"
+  ],
+  "homepage": "https://github.com/rodrigopandini/get-bmfbovespa",
+  "repository": "git://github.com/rodrigopandini/get-bmfbovespa.git",
+  "author": "Rodrigo Pandini <rodrigopandini@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
