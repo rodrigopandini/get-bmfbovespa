@@ -10,5 +10,5 @@ $ npm start
 ```
 
 ## Info
-To get more info:
+To get more info: 
 http://www.bmfbovespa.com.br/pt_br/servicos/market-data/historico/mercado-a-vista/series-historicas/
