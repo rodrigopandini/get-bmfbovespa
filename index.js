@@ -1,7 +1,7 @@
 const fs = require('fs');
 const request = require('request');
 
-for (i = 1996; i < 2018; i++) {
+for (i = 1986; i < 2018; i++) {
   request
     .get('http://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A'+i+'.ZIP')
     .on('error', function(err) {
