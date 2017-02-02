@@ -1,22 +1,38 @@
 {
   "name": "get-bmfbovespa",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=4.1.1"
+  },
   "description": "Faz o download dos dados histórico da BM&F/Bovespa",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigopandini/get-bmfbovespa.git"
   },
   "keywords": [
     "BM&F",
     "Bovespa",
     "historico"
   ],
-  "homepage": "https://github.com/rodrigopandini/get-bmfbovespa",
-  "repository": "git://github.com/rodrigopandini/get-bmfbovespa.git",
   "author": "Rodrigo Pandini <rodrigopandini@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/rodrigopandini/get-bmfbovespa/issues"
+  },
+  "homepage": "https://github.com/rodrigopandini/get-bmfbovespa#readme",
   "license": "MIT",
   "dependencies": {
     "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "chai": "~3.0.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "mocha": "~2.2.5",
+    "request-progress": "^3.0.0"
   }
 }
