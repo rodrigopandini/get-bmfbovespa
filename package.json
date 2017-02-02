@@ -26,13 +26,13 @@
   "homepage": "https://github.com/rodrigopandini/get-bmfbovespa#readme",
   "license": "MIT",
   "dependencies": {
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "request-progress": "^3.0.0"
   },
   "devDependencies": {
     "chai": "~3.0.0",
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.17",
-    "mocha": "~2.2.5",
-    "request-progress": "^3.0.0"
+    "mocha": "~2.2.5"
   }
 }
